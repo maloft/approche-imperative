@@ -1,10 +1,7 @@
 package fr.boucles;
 /** 
  * diginamic
- * exercice
- * @author amine
- * othmane 70
- *
+ * exercice 1
  */
 public class ExerciceBoucleBase {
 
