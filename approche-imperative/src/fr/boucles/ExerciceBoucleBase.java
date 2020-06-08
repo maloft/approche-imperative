@@ -1,4 +1,4 @@
-package fr.boucles;
+package boucles;
 /** 
  * diginamic
  * exercice 1
