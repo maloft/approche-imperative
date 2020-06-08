@@ -17,12 +17,27 @@ public class AffichageInverse {
 		
 		
 		//Affichage du contenu de array dans l'ordre inverse
-		for (int i = taille - 1 ; i >= 0 ; i-- )
+		/*for (int i = taille - 1 ; i >= 0 ; i-- )
 		{
 			System.out.println(array[i]); 
 		
 		}
+		*/
 		
+		//Copier les éléments de array dans arrayCopy
+		
+		int[] arrayCopy = new int[taille];
+		
+		for (int i=0; i < taille; i++ )
+		{
+			arrayCopy[i] = array[i];
+		}
+		
+		//Affichage du contenu de arrayCopy 
+		for (int i=0; i < taille; i++ )
+		{
+			System.out.println(arrayCopy[i]);
+		}
 		
 	}
 
