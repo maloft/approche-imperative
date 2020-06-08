@@ -1,5 +1,16 @@
 package algorithmie;
 
+/**
+ * 
+ * @author Mohamed Amine
+ * 
+ * Dans cette classe : 
+ * 				- On affiche le contenu d'un tableau
+ * 				- On affiche le contenu d'un tableau dans le sens inverse
+ * 				- On copie le contenu d'un tableau dans un nouveau tableau
+ *
+ */
+
 
 public class AffichageInverse {
 
@@ -9,22 +20,26 @@ public class AffichageInverse {
 		int taille = array.length;
 		
 		//Affichage du contenu du tableau array
-		/* for (int i=0; i < taille; i++ )
+		System.out.println("Affichage du contenu de array :");
+		for (int i=0; i < taille; i++ )
 		{
-			System.out.println(array[i]);
+			System.out.print(array[i] + " ; ");
 		}
-		*/
+		System.out.print("\n");
 		
 		
 		//Affichage du contenu de array dans l'ordre inverse
-		/*for (int i = taille - 1 ; i >= 0 ; i-- )
+		System.out.println("Affichage du contenu de array dans le sens inverse :");
+		for (int i = taille - 1 ; i >= 0 ; i-- )
 		{
-			System.out.println(array[i]); 
+			System.out.print(array[i] + " ; "); 
 		
 		}
-		*/
+		System.out.print("\n");
+		
 		
 		//Copier les éléments de array dans arrayCopy
+		
 		
 		int[] arrayCopy = new int[taille];
 		
@@ -34,9 +49,10 @@ public class AffichageInverse {
 		}
 		
 		//Affichage du contenu de arrayCopy 
+		System.out.println("Affichage du contenu de arrayCopy :");
 		for (int i=0; i < taille; i++ )
 		{
-			System.out.println(arrayCopy[i]);
+			System.out.print(arrayCopy[i] + " ; ");
 		}
 		
 	}
