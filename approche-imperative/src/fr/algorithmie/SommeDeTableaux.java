@@ -3,7 +3,7 @@ package algorithmie;
 /**
  * 
  * @author Mohamed Amine
- * Dans cette classe, on crée un tableau qui contient la somme de deux autres tableaux. 
+ * Dans cette classe, on crée un tableau qui contient la somme de deux autres tableaux de même taille. 
  *
  */
 
